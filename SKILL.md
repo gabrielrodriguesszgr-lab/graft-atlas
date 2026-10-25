@@ -1,14 +1,6 @@
 ---
 name: graft-atlas
-description: >-
-  Use this skill to navigate, search, and analyze source code with high token efficiency
-  before reading full files or running broad grep searches. Trigger when the user or agent
-  needs to: (1) understand repository structure or architecture ("map"), (2) locate where a
-  concept, feature, or symbol is implemented ("ask", "find"), (3) inspect a function/class
-  signature and body with its callers and callees ("show"), (4) trace call chains or check
-  blast radius / affected tests before refactoring ("callers", "callees", "impact", "path",
-  "changes"). Do NOT use for non-code tasks, pure string/config literal lookups (use grep),
-  or editing files directly.
+description: "Use this skill to navigate, search, and analyze source code with high token efficiency before reading full files or running broad grep searches. Trigger when the user or agent needs to: (1) understand repository structure or architecture ('map'), (2) locate where a concept, feature, or symbol is implemented ('ask', 'find'), (3) inspect a function/class signature and body with its callers and callees ('show'), (4) trace call chains or check blast radius / affected tests before refactoring ('callers', 'callees', 'impact', 'path', 'changes'). Do NOT use for non-code tasks, pure string/config literal lookups (use grep), or editing files directly."
 ---
 
 # Graft Atlas — Adaptive Local Code Intelligence
